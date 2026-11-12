@@ -1,0 +1,5 @@
+#!/usr/bin/env -S node --no-warnings
+// SPDX-License-Identifier: MIT
+import { runCli } from './src/cli.ts';
+
+await runCli(process.argv);
