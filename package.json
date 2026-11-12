@@ -1,0 +1,22 @@
+{
+  "name": "crawl-pulse",
+  "version": "1.0.0",
+  "description": "Lokale, SSRF-geschützte Web-Crawl-, Markdown- & KI-Kontext-Engine (Zero-Dependency TypeScript für Node.js 22+)",
+  "type": "module",
+  "author": "Aleksey Krivonos",
+  "license": "MIT",
+  "private": true,
+  "bin": {
+    "crawl-pulse": "./crawl-pulse"
+  },
+  "scripts": {
+    "start": "node --no-warnings ./crawl-pulse gui",
+    "gui": "node --no-warnings ./crawl-pulse gui",
+    "tui": "node --no-warnings ./crawl-pulse tui",
+    "mcp": "node --no-warnings ./crawl-pulse mcp",
+    "test": "node --no-warnings --test ./tests/crawl-pulse.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
